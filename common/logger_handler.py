@@ -1,7 +1,7 @@
 """日志处理的封装"""
 import os
 import logging
-from config import path
+from api.config import path
 
 
 def get_logger(name='root',
