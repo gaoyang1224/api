@@ -2,7 +2,7 @@
 import yaml
 import os
 # from config.path import config_path
-from api.config import path
+from config import path
 
 
 def read_yaml(fpath):

@@ -3,7 +3,7 @@ import random
 
 from faker import Faker
 
-from api.common.db_handler import DBHandler
+from common.db_handler import DBHandler
 
 
 def generate_new_phone():
