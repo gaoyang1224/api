@@ -2,6 +2,7 @@
 import os
 import logging
 from config import path
+from logging.handlers import RotatingFileHandler
 
 
 def get_logger(name='root',
@@ -25,15 +26,17 @@ def get_logger(name='root',
     handler.setFormatter(fmt)
     # 文件处理器
     if file:
-        file_handler = logging.FileHandler(file, encoding="utf-8")
+        file_handler = RotatingFileHandler(file,
+                                           maxBytes=1024 * 1024 * 50,
+                                           backupCount=3,
+                                           encoding="utf-8")
         file_handler.setLevel(file_handler_level)
         logger.addHandler(file_handler)
         file_handler.setFormatter(fmt)
     return logger
 
 
-
-log_file = os.path.join(path.logs_path, 'py36.log')
+log_file = os.path.join(path.logs_path, 'test_case.log')
 # 收集器
 logger = get_logger(file=log_file)
 # logger = get_logger('')
