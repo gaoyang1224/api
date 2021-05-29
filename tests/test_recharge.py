@@ -45,5 +45,5 @@ def test_recharge(info, login):
     for key, value in expected.items():
         # 实际结果的value 怎么获取
         assert jsonpath(resp.json(), key)[0] == value
-
+ 
 
