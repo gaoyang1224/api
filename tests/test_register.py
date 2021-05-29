@@ -44,7 +44,7 @@ def test_register_01(test_info):
     resp_body = resp.json()
 
     try:
-        assert resp_body['code'] == expected
+        assert resp_body['API'] == expected
 
     except AssertionError as e:
         logger.error("用例失败:{}".format(e))

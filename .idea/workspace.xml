@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51f55d7e-bee0-4927-9c41-9ddad1a5cd43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jiekou.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jiekou.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/~$cases.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/report2021-01-20-20-26-50.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/report2021-01-20-20-28-32.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/report2021-05-20-23-18-00.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_recharge.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_recharge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习代码/demo01_jsonpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianxicode/demo01_jsonpath.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习代码/demo02_json序列化和反序列化.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianxicode/demo02_json序列化和反序列化.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习代码/总结.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lianxicode/总结.txt" afterDir="false" />
-    </list>
+    <list default="true" id="51f55d7e-bee0-4927-9c41-9ddad1a5cd43" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -223,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621675268318</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="new">
+      <created>1622271544787</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622271544787</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">

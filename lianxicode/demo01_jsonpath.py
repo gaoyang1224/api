@@ -1,7 +1,7 @@
 from jsonpath import jsonpath
 
 json_dict = {
-	'code': 0,
+	'API': 0,
 	'msg': 'OK',
 	'data': {
 		'id': 31,
